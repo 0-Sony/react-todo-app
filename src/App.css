@@ -16,7 +16,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.frame {
+  border: 2px solid white;
+  width: 800px;
+  padding:20px
+}
 
-.App-link {
-  color: #09d3ac;
+.container{
+  width: 80%;;
+  margin:0 auto;
+  margin-top: 50px;
+  padding:5px;
+}
+
+li{
+  width: 500px;
+  text-align: left;
+  color:black;
+  margin: 0 auto;
+}
+
+li button {
+  float:right;
+  margin-left: 150px;
+}
+
+.completed {
+  text-decoration : line-through
+}
+
+.row{
+  margin-top:25px;
+}
+
+form{
+  margin:0 auto;
+}
+
+.form-control {
+  width: 500px;
+
+}
+
+.myBtn {
+  margin: 0 auto;
 }
